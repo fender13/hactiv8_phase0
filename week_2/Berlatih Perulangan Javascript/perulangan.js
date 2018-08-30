@@ -1,3 +1,5 @@
+// While Loop
+
 var looping1 = 2
 var looping2 = 20
 
@@ -10,6 +12,8 @@ while (looping1 <= 20) {
   console.log(looping2 + " - I will become fullstack developer")
   looping2 = looping2 - 2
 }
+
+// For Loop
 
 console.log("LOOPING PERTAMA")
 for (var looping1 = 0; looping1 <= 20; looping1++) {
