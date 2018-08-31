@@ -1,11 +1,13 @@
 // Jika row = 5
 
-var row = 0
+var row = 0;
+
 while (row < 5) {
-  console.log ("*");
-  star++
-} 
-console.log("row");
+  console.log("*")
+  row++
+}
+
+console.log(row)
 
 // Jika row = 5 dengan NESTED LOOP
 
