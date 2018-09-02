@@ -40,3 +40,35 @@ while (i < row) {
   console.log(pyramid);
   i++;
 }
+
+
+// Segitiga siku-suku kanan
+
+function baris(height) {
+
+  for (var i = 1; i <= height; i++) {
+    var bintang = "*"
+      for (var j = 1; j <= (i - 1); j++) {
+        bintang = bintang + "*" 
+    } 
+    console.log(bintang)
+  }
+}
+baris(5)
+
+// Segitiga siku-siku kiri
+
+function segitigaSikuKiri(height) {
+
+  for (var i = 1; i <= height; i++) {
+    var bintang = " "
+      for (var j = 1; j <= height - i; j++) {
+        bintang = bintang + " " 
+    } for (var k = 1; k <= i; k++) {
+      bintang = bintang + "*"
+    }
+    console.log(bintang)
+  }
+}
+segitigaSikuKiri(5)
+
