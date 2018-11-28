@@ -12,7 +12,7 @@ function pasanganTerbesar(num) {
         var pasangan = str[i] + str[i + 1]
         // console.log(pasangan)
         if (pasangan > max) {
-            max = pasangan
+            max = parseInt(pasangan)
         } 
     } return max
 }
