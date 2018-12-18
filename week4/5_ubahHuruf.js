@@ -6,17 +6,17 @@ function ubahHuruf(kata) {
     // you can only write your code here!
     var split = kata.split('')
     // console.log(split)
-  
+
     for (i = 0; i < split.length; i++) {
-      switch(split[i]) {
-        case 'z': split[i] = 'a'
-        break
-        default:
-        split[i] = String.fromCharCode(1 + split[i].charCodeAt(0))
-      // } console.log(split[i])
-      }
+        switch(split[i]) {
+            case 'z': split[i] = 'a'
+            break
+            default:
+            split[i] = String.fromCharCode(1 + split[i].charCodeAt(0))
+          // } console.log(split[i])
+        }
     } return split.join('')
-  
+
 }
 
 // TEST CASES
